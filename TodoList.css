@@ -1,0 +1,191 @@
+ html,
+ body,
+ main {
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 8px;
+     background: #8080807d;
+ }
+
+ .main {
+     background: #ffffff;
+ }
+
+ .title {
+     display: inline-block;
+     margin-right: 5px;
+ }
+
+ .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+     padding: 0 20px;
+ }
+
+ .btn {
+     padding: 8px 20px;
+     color: white;
+     border: none;
+     cursor: pointer;
+     border-radius: 4px;
+ }
+
+ .btn-primary {
+     background: #007bff;
+ }
+
+ .btn-secondary {
+     border: 1px solid #666;
+     color: #666;
+
+ }
+
+ .lists-container {
+     display: flex;
+     overflow-x: auto;
+     gap: 10px;
+     padding: 10px 20px;
+     height: 90%;
+ }
+
+ .list {
+     background: rgba(128, 128, 128, 0.1);
+     padding: 0 10px;
+     border-radius: 6px 6px 0 0;
+     min-width: 250px;
+     max-width: 250px;
+     max-height: 80vh;
+     overflow-y: auto;
+     display: flex;
+     flex-direction: column;
+     border-top: 4px solid blue;
+ }
+
+ .list-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .card {
+     background: #ffffff;
+     margin: 5px 0;
+     padding: 8px;
+     border-radius: 4px;
+     cursor: grab;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+ }
+
+ .dialog-overlay {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(0, 0, 0, 0.5);
+     display: none;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .dialog {
+     background: white;
+     border-radius: 6px;
+     min-width: 400px;
+ }
+
+ .dialog-header {
+     font-size: 18px;
+     border-bottom: 1px solid #666;
+     text-align: center;
+     padding: 15px;
+ }
+
+ .dialog-body {
+     padding: 20px
+ }
+
+ .dialog input,
+ .dialog textarea {
+     width: 100%;
+     margin-bottom: 10px;
+     padding: 6px;
+ }
+
+ .dialog-footer {
+     padding: 20px
+ }
+
+ .no-data {
+     color: #666;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(50%, 50%);
+ }
+
+ .card-no-data {
+    padding-top:95%;
+    text-align: center;
+ }
+
+ .favorite {
+     cursor: pointer;
+     color: gray;
+ }
+
+ .favorite.marked {
+     color: gold;
+ }
+
+ .search-box {
+     border-radius: 10px;
+     background-color: rgba(128, 128, 128, 0.5);
+     padding: 5px 10px;
+     border: 0;
+ }
+
+ .add-cart-button {
+    background: #ced1d4;
+    border: 0;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding: 14px;
+    color: blue;
+    cursor: pointer;
+ }
+
+ .box-shadow {
+     box-shadow: 0px 5px 8px grey;
+ }
+
+ .ml-10 {
+    margin-left: 10px;
+ }
+
+ .margin-top-auto {
+    margin-top: auto;
+ }
+
+ .icon-delete {
+    width: 14px;
+    height: auto;
+    margin: 2px;
+    cursor: pointer;
+ }
